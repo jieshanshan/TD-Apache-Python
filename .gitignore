@@ -1,0 +1,14 @@
+### Vagrant ###
+.vagrant/
+*.logs
+*.log
+*.box
+
+### Jupyter ###
+.ipynb_checkpoints/
+__pycache__
+
+### Study ### (Ignore auto-generated data)
+study.d/repositories/
+study.d/to_analyze/
+study.d/vendor/
