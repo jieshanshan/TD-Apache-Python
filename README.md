@@ -94,7 +94,7 @@ Before you run the scripts for the study, you have to configure SonarQube as fol
 
 2. Activate more Python rules:
 
-    * Quality Profiles -> Sonar way, from the drop-down menu click on Copy and set a name
+    * Quality Profiles -> Python -> Sonar way, from the drop-down menu click on Copy and set a name
     * Then click on Inactive and then Bulk Change -> Activate In...
     * Back to  Quality Profiles and set the new profile as Default (from the drop-down)
     
