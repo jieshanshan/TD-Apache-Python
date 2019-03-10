@@ -11,9 +11,9 @@ services:
       - GRANT_SUDO=yes # BE CAREFUL!
       - JUPYTER_ENABLE_LAB=yes
     # Password: sonar
-    command: start-notebook.sh --NotebookApp.notebook_dir=/home/sonar/study.d --NotebookApp.password='sha1:9fd0f6673258:4a921d3af4c53d359f01871181b839bd4a85b665'
+    command: start-notebook.sh --NotebookApp.notebook_dir=/home/sonar/study.d/ --NotebookApp.password='sha1:9fd0f6673258:4a921d3af4c53d359f01871181b839bd4a85b665'
     volumes:
-      - /home/vagrant/study.d/:/home/sonar/study.d
+      - /home/vagrant/study.d/:/home/sonar/study.d/
 
   db:
     image: postgres:11

@@ -1,12 +1,13 @@
 > **TODO's**
-> - Finish section **About**
 > - Finish section **Additional SonarQube Configurations**
-> - Finish section **Data Collection**
-> - Change `.bat` to a shell script
 
 # About
 
-This is a repository for the paper "..."
+This is a repository for the paper 
+
+**[TODO] ADD PAPER CITATION**
+
+It contains the replication package of the study reported in the aforementioned paper.
 
 # Replication Instructions
 
@@ -16,7 +17,7 @@ To reduce the effort further, we also automated the creation of an environment f
 
 The instruction to create the environment and replicate the study are described in the following. 
 
-## Bootstrap Virtual Machine
+## 1. Bootstrap Virtual Machine
 
 ### Requirements
 
@@ -36,7 +37,7 @@ $ vagrant plugin install vagrant-docker-compose
 The VM is controlled via [Vagrant](https://www.vagrantup.com/downloads.html) and contains the configured environment to run all scripts for this study. Mainly, the VM provides:
 - SonarQube (version 7.6-community)
 - PostgreSQL (version 11, to store SonarQube data)
-- Python + libraries (to run scripts)
+- Jupyter + Python + libraries (to run scripts)
 
 Whenever you boot the VM, the environment is initialized and SonarQube is available at http://localhost:9000.
 
@@ -78,7 +79,7 @@ $ vagrant ssh
 > Purging the VM will delete all VM files except for the ones in this folder (and subfolders).
 
 
-## Additional SonarQube Configurations (?)
+## 2. Additional SonarQube Configurations (?)
 
 Before you run the scripts for the study, you have to configure SonarQube as follows:
 
@@ -91,10 +92,10 @@ Before you run the scripts for the study, you have to configure SonarQube as fol
     * Then click on Inactive and then Bulk Change -> Activate In...
     * Back to  Quality Profiles and set the new profile as Default (from the drop-down)
     
-## Data Collection (?)
+## 3. Data Collection
 
-To collect the data for the study, you must log in the virtual machine and execute the following procedures:
+To collect the data for the study, you must follow the instructions described in the Jupyter notebook at `study.d/Data-Collection.ipynb`. For that:
 
-1. Run the [commits_per_week2](commits_per_week2.py) script found in this repository to download
+1. Open [Jupyter Lab](http://localhost:8888/lab) on your browser (*password: sonar*)
 
-2. Run the .bat file that you obtain from the last step
+2. There is a file tree on the left, click on `Data-Collection.ipynb`
