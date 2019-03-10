@@ -85,12 +85,12 @@ Before you run the scripts for the study, you have to configure SonarQube as fol
 
 1. Change the General Settings in the following way:
     * Administration -> Configuration -> General (set each value instead of default value):
-    Keep only one analysis a day after -> 876000
-    Keep only one analysis a week after -> 5200
-    Keep only one analysis a month after -> 5200
-    Keep only analyses with a version event after -> 10400
-    Delete all analyses after -> 10400
-    Delete closed issues after -> 36500
+    - Keep only one analysis a day after -> 876000
+    - Keep only one analysis a week after -> 5200
+    - Keep only one analysis a month after -> 5200
+    - Keep only analyses with a version event after -> 10400
+    - Delete all analyses after -> 10400
+    - Delete closed issues after -> 36500
 
 2. Activate more Python rules:
 
