@@ -29,7 +29,7 @@ $ vagrant plugin install vagrant-docker-compose
 ```
 4. (Optional) Install the plugin `vagrant-vbguest` (VirtualBox Guest Additions). In your command prompt or terminal, run:
 ```shell
-$ vagrant plugin install vagrant-docker-compose 
+$ vagrant plugin install vagrant-vbguest 
 ```
 
 ### Using the Virtual Machine (VM)
