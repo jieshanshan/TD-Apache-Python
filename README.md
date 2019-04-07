@@ -1,11 +1,8 @@
-> **TODO's**
-> - Finish section **Additional SonarQube Configurations**
-
 # About
 
 This is a repository for the paper 
 
-**[TODO] ADD PAPER CITATION**
+**Technical Debt Remediation in Python: A Case Study on the Apache Software Ecosystem**
 
 It contains the replication package of the study reported in the aforementioned paper.
 
@@ -79,7 +76,7 @@ $ vagrant ssh
 > Purging the VM will delete all VM files except for the ones in this folder (and subfolders).
 
 
-## 2. Additional SonarQube Configurations (?)
+## 2. Additional SonarQube Configurations
 
 Before you run the scripts for the study, you have to configure SonarQube as follows:
 
