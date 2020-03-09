@@ -2,7 +2,7 @@
 
 This is a repository for the paper 
 
-**Technical Debt Remediation in Python: A Case Study on the Apache Software Ecosystem**
+**Evolution of Technical Debt Remediation in Python: A Case Study on the Apache Software Ecosystem**
 
 It contains the replication package of the study reported in the aforementioned paper.
 
